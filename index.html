@@ -1,28 +1,73 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blockfree</title>
-    <link rel="icon" type="image/ico+xml" href="https://raw.githubusercontent.com/uvgame/uvgame.github.io/main/images/blockfree.png" />
-
+    <title>Aeries</title>
+    <link rel="icon" type="image/x-icon" href="https://net.mdusd.org/ParentPortal/favicon.ico">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            width: 80%;
+            max-width: 800px;
+        }
+        .button {
+            width: 150px;
+            height: 100px;
+            border-radius: 20px;
+            background-size: cover;
+            background-position: center;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            text-decoration: none;
+        }
+        .button::after {
+            content: attr(data-text);
+            position: absolute;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 5px 10px;
+            border-radius: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .button:hover {
+            transform: scale(1.1);
+        }
+        .button:hover::after {
+            opacity: 1;
+        }
+    </style>
 </head>
-    <body>
-        <h1 class="Title">Blockfree</h1>
-        <ul>
-            <li><a href="https://uvgame.github.io/eggy-car.html">Eggy Car</a></li>
-            <li><a href="https://uvgame.github.io/gun-mayhem-2.html">Gun Mayhem 2</a></li>
-            <li><a href="https://uvgame.github.io/krunker.html">Krunker</a></li>
-            <li><a href="https://uvgame.github.io/tap-tap-shots.html">Tap Tap Shots</a></li>
-        </ul>
-
-
-
-        <style>
-.Title {
-    font-family: arial;
-    color: red;
-}
-        </style>
-    </body>
+<body>
+    <div class="button-container">
+        <a href="https://aeriesportal.github.io/stealth-master.html" class="button" style="background-image: url('https://i.ytimg.com/vi/pjxYBNMSUs8/maxresdefault.jpg');" data-text="Stealth Master"></a>
+        <a href="https://aeriesportal.github.io/ball-blast" class="button" style="background-image: url('https://d2u1q3j7uk6p0t.cloudfront.net/b-oVK7D5koI4ie5HMKi4D2w_t7dtl5L_bjxIfFqdKVp-ymRRIZtMPUws_unjOIPsQ10');" data-text="Ball Blast"></a>
+        <a href="https://aeriesportal.github.io/tomb-of-the-mask.html" class="button" style="background-image: url('https://cdn.mobygames.com/covers/10344238-tomb-of-the-mask-iphone-front-cover.jpg');" data-text="Tomb of The Mask"></a>
+        <a href="https://aeriesportal.github.io/magic-tiles-3.html" class="button" style="background-image: url('https://play-lh.googleusercontent.com/5hF9MK9UFqcgUbX-1CKvmnTOt-XchFt6L5CK9FtEWIdPV2vYfFyqAdl73Kg5nSkDTKE');" data-text="Magic Tiles 3"></a>
+        <a href="https://aeriesportal.github.io/jetpack-joyride.html" class="button" style="background-image: url('https://lh3.googleusercontent.com/39i-yY0U3UocA3SEUU5Q5PdHB8_V9xOxh_dkjDZg4sxqCUk1Ig5bxHk4vNKMtg3QJhg=h900');" data-text="Jetpack Joyride"></a>
+        <a href="https://aeriesportal.github.io/fruit-ninja.html" class="button" style="background-image: url('https://yt3.ggpht.com/a/AGF-l78FxTGoPfDvGIkUHp3MOS4wi5edZTBpYoryeA=s900-mo-c-c0xffffffff-rj-k-no');" data-text="Fruit Ninja"></a>
+        <a href="https://aeriesportal.github.io/krunker.html" class="button" style="background-image: url('https://play-lh.googleusercontent.com/QB9O_q7VoO97MSuhC7AzcYk9t8VVqsr5P2nPU1uHPZjNOS83GjghN07HAuG2hG_vNMQ');" data-text="Krunker"></a>
+        <a href="https://aeriesportal.github.io/eggy-car.html" class="button" style="background-image: url('https://blog.way.com/wp-content/uploads/2024/01/Eggy-Car.jpeg');" data-text="Eggy Car"></a>
+        <a href="hhttps://aeriesportal.github.io/gun-mayhem-2.html" class="button" style="background-image: url('image9.jpg');" data-text="Gun Mayhem 2"></a>
+        <a href="https://aeriesportal.github.io/tap-tap-shots.html" class="button" style="background-image: url('https://th.bing.com/th/id/OIP.hUCgIs8MJ7KR9UdI9bHyaQHaD4?rs=1&pid=ImgDetMain');" data-text="Tap Tap Shots"></a>
+    </div>
+</body>
 </html>
-
