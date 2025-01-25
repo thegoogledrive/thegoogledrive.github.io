@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeries Student Portal</title>
+    <link rel="icon" type="image/ico+xml" href="https://net.mdusd.org/ParentPortal/favicon.ico" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        iframe {
+            border: none;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://14795171320512817430.playables.usercontent.goog/v/assets/index.html" title="Blockfree Game"></iframe>
+</body>
+</html>
